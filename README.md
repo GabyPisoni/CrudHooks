@@ -1,4 +1,4 @@
-# Parte Front del Proyecto Tienda de peliculas
+# Crud Form Hooks
 
 Crud de Usuarios   tutorial de https://www.taniarascia.com/crud-app-in-react-with-hooks/ y se uso tambien el tutorial de blueweb  https://www.youtube.com/watch?v=8rLs-AGn4go
 Este proyecto fue hecho con React conceptos aplicados :
