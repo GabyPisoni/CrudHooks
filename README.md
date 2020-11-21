@@ -38,6 +38,6 @@ Entrar a http://localhost:3000
 
 Herramientas usadas para construir el proyecto
 * [React](https://es.reactjs.org/) - Libreria de javascript para construir el proyecto
-* [react-hook-form'] (https://react-hook-form.com/) - Libreria para usar formularios y validarlos.
-*[uuid] (https://www.npmjs.com/package/uuid) - Genera Id , en este caso sirven para que los datos tengan id unicos para cuando se usa la funcion filter para eliminar los datos , funcione correctamente si no elimina todos los datos que coincidan con ese id.
+* [react-hook-form'](https://react-hook-form.com/) - Libreria para usar formularios y validarlos.
+* [uuid](https://www.npmjs.com/package/uuid) - Genera Id , en este caso sirven para que los datos tengan id unicos para cuando se usa la funcion filter para eliminar los datos , funcione correctamente si no elimina todos los datos que coincidan con ese id.
 
