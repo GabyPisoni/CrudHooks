@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Crud Form Hooks
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Crud de Usuarios   tutorial de https://www.taniarascia.com/crud-app-in-react-with-hooks/ y se uso tambien el tutorial de blueweb  https://www.youtube.com/watch?v=8rLs-AGn4go
+Este proyecto fue hecho con React conceptos aplicados :
+Hooks State ,
+Props con destructuracion en js, 
+Componentes 
+Datos Hardcodeados.
+Y se uso para las validaciones de los inputs 'react-hook-form'
 
-## Available Scripts
 
-In the project directory, you can run:
+## Comenzando 🚀
 
-### `npm start`
+Descargar el proyecto desde git , desde el boton verde code y elegir la forma de descargar
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Pre-requisitos 📋
 
-### `npm test`
+Tener instalado node js Link :https://nodejs.org/es/
+Tener instalado React Link :https://es.reactjs.org/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+Tutoriales de instalacion 
+node js : https://www.youtube.com/watch?v=IuKsCsLhX3w
+React :https://www.youtube.com/watch?v=ETtofoqT5pk
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Instalación 🔧
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Entrar en el directorio por medio de la consola de comando con cd crud-form-hooks y ingresar npm install para instalar todas las dependencias.
+Luego ingresar npm start
+##### `npm start`
+Entrar a http://localhost:3000
 
-### `npm run eject`
+## Construido con 🛠️
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Herramientas usadas para construir el proyecto
+* [React](https://es.reactjs.org/) - Libreria de javascript para construir el proyecto
+* [react-hook-form'](https://react-hook-form.com/) - Libreria para usar formularios y validarlos.
+* [uuid](https://www.npmjs.com/package/uuid) - Genera Id , en este caso sirven para que los datos tengan id unicos para cuando se usa la funcion filter para eliminar los datos , funcione correctamente si no elimina todos los datos que coincidan con ese id.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
